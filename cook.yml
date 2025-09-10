@@ -1,0 +1,24 @@
+---
+- name: Slovak Kitchen Playbook
+  hosts: all
+  remote_user: opc
+  become: yes
+
+  tasks:
+    - name: Include bryndza role
+      include_role:
+        name: ansible-role-bryndza
+      tags:
+        - bryndza
+
+    - name: Include halusky role
+      include_role:
+        name: ansible-role-halusky
+      tags:
+        - halusky
+
+    - name: Include slanina role
+      include_role:
+        name: ansible-role-slanina
+      tags:
+        - slanina
