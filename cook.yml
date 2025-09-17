@@ -22,3 +22,12 @@
         name: ansible-role-slanina
       tags:
         - slanina
+
+    - name: Include timezone role
+      include_role:
+        name: ansible-role-timezone
+      vars:
+        target_timezone: "Europe/Zurich"
+      tags:
+        - timezone
+        - debug

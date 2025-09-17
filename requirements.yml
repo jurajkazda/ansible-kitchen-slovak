@@ -1,0 +1,25 @@
+---
+# Ansible Galaxy requirements file
+- src: https://juraj.kazda:<gh_pat>/jurajkazda/ansible-role-bryndza.git
+  scm: git
+  name: ansible-role-bryndza
+
+- src: https://juraj.kazda:<gh_pat>/jurajkazda/ansible-role-halusky.git
+  scm: git
+  name: ansible-role-halusky
+
+- src: https://juraj.kazda:<gh_pat>/jurajkazda/ansible-role-slanina.git
+  scm: git
+  name: ansible-role-slanina
+
+- src: https://Juraj-Kazda_avq:<gh_pat>@github.com/Juraj-Kazda_avq/ansible-role-timezone.git
+  scm: git
+  name: ansible-role-timezone
+
+- src: https://Juraj-Kazda_avq:<gh_pat>@github.com/Juraj-Kazda_avq/ansible-role-base.git
+  scm: git
+  name: ansible-role-base
+
+- src: https://Juraj-Kazda_avq:<gh_pat>@github.com/Juraj-Kazda_avq/ansible-role-reboot_linux.git
+  scm: git
+  name: ansible-role-reboot_linux
